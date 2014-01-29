@@ -1,11 +1,26 @@
-/web/bundles/
-/app/bootstrap.php.cache
-/app/cache/*
-/app/config/parameters.yml
-/app/logs/*
-!app/cache/.gitkeep
+# Composer
+composer.lock
+composer.phar
+vendor/*
+
+# Bootstrap
+app/bootstrap*
+
+# Symfony directories
+app/logs/*
 !app/logs/.gitkeep
-/build/
-/vendor/
-/bin/
-/composer.phar
+app/cache/*
+!app/cache/.gitkeep
+bin/*
+web/uploads/*
+web/bundles/*
+
+# Configuration files
+app/config/parameters.ini
+app/config/parameters.yml
+
+# Other
+build/*
+
+# Distribution
+app/AllowedIP.php
