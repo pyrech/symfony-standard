@@ -1,3 +1,13 @@
+Note:
+-----
+
+This distribution is based on the Symfony Standard Edition, where the AcmeDemo
+bundle has been removed and the .gitignore tweaked. A new file `app/AllowedIP.php`
+has been added to centralized the IP allowed to access the application in development
+(`web/app_dev.php` & `web/config.php`). This feature allows you to easily manage
+external IP when you're developing on a remote server. You should howewer remove the
+`web/config.php` file when your app goes to production.
+
 Symfony Standard Edition
 ========================
 
@@ -85,7 +95,7 @@ take you through all the basic features of Symfony2.
 Once you're feeling good, you can move onto reading the official
 [Symfony2 book][5].
 
-You should tweak the `security.providers` entry in the `security.yml` file to
+You should also tweak the `security.providers` entry in the `security.yml` file to
 fit your needs.
 
 What's inside?
