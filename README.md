@@ -8,6 +8,9 @@ has been added to centralized the IP allowed to access the application in develo
 external IP when you're developing on a remote server. You should howewer remove the
 `web/config.php` file when your app goes to production.
 
+When you want to allow a new IP, just add it to the `app/AllowedIP.php` file. As this
+file is added to the `.gitignore`, your modif will not be commited.
+
 Symfony Standard Edition
 ========================
 
