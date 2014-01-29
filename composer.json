@@ -2,7 +2,7 @@
     "name": "pyrech/symfony-standard-edition",
     "license": "MIT",
     "type": "project",
-    "description": "A bit tweaked  \"Symfony Standard Edition\" distribution",
+    "description": "A bit tweaked \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-0": {
             "": "src/"
